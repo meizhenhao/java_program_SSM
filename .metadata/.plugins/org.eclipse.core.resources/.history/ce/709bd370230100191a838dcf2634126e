@@ -1,0 +1,21 @@
+package com.taotao.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.taotao.mapper.TbItemMapper;
+import com.taotao.pojo.TbItem;
+
+
+public class TbItemServiceImpl implements TbItemServiceInterface{
+	
+	@Autowired
+	TbItemMapper itemMapper;
+	
+	@Override
+	public TbItem findTbItemByID(long id) {
+		// TODO Auto-generated method stub
+		TbItem item = itemMapper.selectByPrimaryKey(id);
+		return item;
+	}
+
+}

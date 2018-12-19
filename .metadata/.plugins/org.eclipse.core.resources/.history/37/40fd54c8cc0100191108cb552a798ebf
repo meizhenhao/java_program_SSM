@@ -1,0 +1,10 @@
+package com.taotao.controller;
+
+public class Test {
+	@org.junit.Test
+	public void testPageHelper(){
+		String string = "meizhenhao";
+		System.out.println(string);
+	}
+	
+}

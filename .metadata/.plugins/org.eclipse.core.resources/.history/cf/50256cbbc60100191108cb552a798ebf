@@ -1,0 +1,18 @@
+package com.taotao.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+/**
+ * 显示首页的controller
+ * @author 23237
+ *
+ */
+@Controller
+public class ShowIndexController {
+	
+	@RequestMapping("/")
+	public String showIndex(){
+		return "index";
+	}
+}

@@ -1,0 +1,13 @@
+package com.taotao.controller;
+
+import org.springframework.stereotype.Controller;
+
+/**
+ * 显示首页的controller
+ * @author 23237
+ *
+ */
+@Controller
+public class ShowIndexController {
+	
+}
