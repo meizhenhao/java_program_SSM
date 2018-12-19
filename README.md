@@ -1,0 +1,2 @@
+# java_program_SSM
+基于SSM框架实现的小项目，主要目的是熟悉掌握SSM框架的使用和运用
